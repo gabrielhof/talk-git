@@ -1,3 +1,3 @@
 # Git Talk
 
-Git Intruduction Talk
+Git Introduction Talk
