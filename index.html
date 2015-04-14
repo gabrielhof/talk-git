@@ -39,6 +39,12 @@
 
 						<br/>
 						<small>Versão 1.0.0</small>
+
+						<aside class="notes">
+							Meu nome é Gabriel, sou usuário de Git há 2 anos. Eu tento parar, mas não consigo.
+							...
+							Pedir para fazerem perguntas durante a palestra. Falar dos bombons.
+						</aside>
 					</section>
 
 					<section id="about">
@@ -56,6 +62,10 @@
 
 						<br/>
 						<img width="170" data-src="img/quefome_logo.png" />
+
+						<aside class="notes">
+							Falar que o QueFo.me é uma startup e vai surgir daqui algum tempo.
+						</aside>
 					</section>
 				</section>
 
@@ -70,6 +80,10 @@
 						<br/>
 						<img width="170px" data-src="img/logos/targz.png" />
 					</div>
+
+					<aside class="notes">
+						Esperar o pessoal perguntar, ter uma ideia de quem conhece algum VCS.
+					</aside>
 				</section>
 
 				<section>
@@ -83,6 +97,10 @@
 						<br/>
 						<img width="170px" data-src="img/logos/gmail.png" />
 					</div>
+
+					<aside class="notes">
+						Novamente, deixe o pessoal falar.
+					</aside>
 				</section>
 
 				<section>
@@ -96,6 +114,10 @@
 					</ul>
 					&nbsp;
 					<img class="fragment" width="200px" data-src="img/gifs/crazy.gif" />
+
+					<aside class="notes">
+						Mais uma vez, deixe o pessoal falar.
+					</aside>
 				</section>
 
 				<section>
@@ -119,10 +141,13 @@
 						<li class="fragment">Marcar "versões"</li>
 						<li class="fragment">Ramificar</li>
 					</ul>
-				</section>
 
-				<section>
-					<h1>Inserir imagem legal exemplificando o VCS</h1>
+					<aside class="notes">
+						Controlar histórico: deve permitir adicionar novas alterações e visualizar o histórico de alterações.
+						Facilitar o trabalho em equipe: compartilhar código não deveria ser uma dor de cabeça.
+						Marcar versões: Versão 1.0, 2.0, etc.
+						Ramificar: Vamos falar sobre isso mais a frente...
+					</aside>
 				</section>
 
 				<section>
@@ -132,29 +157,54 @@
 				</section>
 
 				<section>
-					<h3>Centralizado</h3>
+					<h3>VCS Centralizado</h3>
+					<img class="fragment" width="700px" data-src="img/centralized_vcs.png"/>
 
-					<h2>INSERIR IMAGEM BACANA EXPLICANDO CENTRALIZACAO</h2>
-
-					<div class="fragment">
-						<img width="200px" data-src="img/logos/cvs.jpg" />
-						&nbsp;
-						<img width="200px" data-src="img/logos/subversion.png" />
-					</div>
+					<aside class="notes">
+						Qual a ideia da centralização? Possuir um servidor na rede onde são feitos os checkouts (downloads) e atualizações.
+					</aside>
 				</section>
 
 				<section>
-					<h3>Distribuído</h3>
-
-					<h2>INSERIR IMAGEM BACANA EXPLICANDO DISTRIBUIDO</h2>
+					<h3>VCS Centralizado</h3>
 
 					<div class="fragment">
-						<img width="200px" data-src="img/logos/bazaar.png" />
+						<img width="300px" data-src="img/logos/cvs.jpg" />
 						&nbsp;
-						<img width="200px" data-src="img/logos/mercurial.png" />
+						<img width="300px" data-src="img/logos/subversion.png" />
+					</div>
+
+					<aside class="notes">
+						Explicar que o SVN é uma evolução do CVS.
+						Falar sobre a lentidão do SVN e dos problemas com ao fazer merge.
+					</aside>
+				</section>
+
+				<section>
+					<h3 class="git-color">VCS Distribuído</h3>
+
+					<img width="700px" data-src="img/descentralized_vcs.png"/>
+					<br/>
+
+					<aside class="notes">
+						Cada repositório pode trocar informações com qualquer outro repositório, dando a liberdade de até escolher trabalhar de forma centralizada ou não.
+					</aside>
+				</section>
+
+				<section>
+					<h3 class="git-color">VCS Distribuído</h3>
+
+					<div class="fragment">
+						<img width="300px" data-src="img/logos/bazaar.png" />
+						&nbsp;
+						<img width="300px" data-src="img/logos/mercurial.png" />
 					</div>
 
 					<h1 class="fragment">e...</h1>
+
+					<aside class="notes">
+						Não conheço muito de bazaar, só um pouco de mercurial e acho ele muito parecido com o Git.
+					</aside>
 				</section>
 
 				<section>
@@ -163,6 +213,10 @@
 
 					<h5 class="fragment">Projeto Open Source (GPL v2)</h5>
 					<h5 class="fragment">Criado por Linus Torvals para manter o Kernel do Linux</h5>
+
+					<aside class="notes">
+						GPL dá liberdade pra usar, modificar e distribuir o software, seja de maneira publica ou privada.
+					</aside>
 				</section>
 
 				<section>
@@ -189,6 +243,13 @@
 							</td>
 						</tr>
 					</table>
+
+					<aside class="notes">
+						A comunidade opta por não usar o CVS na época. Falar dos problemas de lentidão do CVS.
+
+						Falar do vídeo onde o Línus fala que arquivos compactados são melhores que o CVS.
+						E falar da piada dele que o SVN "é o CVS feito de maneira certa" e que isso não é possível.
+					</aside>
 				</section>
 
 				<section>
@@ -201,6 +262,10 @@
 					<blockquote class="fragment" data-fragment-index="2">"Palavra aleatória de três letras que não era usada por nenhum comando UNIX."</blockquote>
 					<blockquote class="fragment" data-fragment-index="3">"Global information tracker" quando você está de bom humor e tudo funciona.</blockquote>
 					<blockquote class="fragment" data-fragment-index="4">"Goddamn idiotic truckload of sh*t" quando nada funciona.</blockquote>
+
+					<aside class="notes">
+						Goddamn idiotic truckload of sh*t = Caminhão idiota cheio de merda
+					</aside>
 				</section>
 
 				<section>
@@ -218,6 +283,15 @@
 					</ul>
 
 					<img class="fragment" width="300px" data-src="img/gifs/obama_happy.gif" />
+
+					<aside class="notes">
+						Rapidez é muito importante.
+						Simplicidade: tanto de software, quanto de uso, comandos que sejam fáceis e façam sentido.
+						Robustez: ninguém quer usar um VCS que quebra toda hora.
+						Ramificação: Sair do fluxo principal de desenvolvimento. Vamos falar disso mais tarde.
+						Distribuído: a liberdade de escolher a melhor forma de compartilhar o código.
+						Eficiência: Os caras estavam criando isso para o Linux, óbvio que tinha que suportar o Linux.
+					</aside>
 				</section>
 
 				<section>
@@ -240,6 +314,10 @@
 							</td>
 						</tr>
 					</table>
+
+					<aside class="notes">
+						Eu não sei se é assim que normalmente instalam o Git no Mac. Eu não tenho um Mac. Se vocês querem que eu descubra, por favor, me deem dinheiro.
+					</aside>
 				</section>
 
 				<section>
@@ -251,6 +329,10 @@
 					<h5>Ou algo do tipo</h5>
 
 					<img width="500px" data-src="img/gifs/house_keyboard.gif" />
+
+					<aside class="notes">
+						Let's Rock
+					</aside>
 				</section>
 
 				<section>
@@ -265,6 +347,10 @@
 					<b class="fragment">No Git, o repositório nada mais é que um diretório que contém um sub-diretório .git</b>
 					<br/>
 					<img class="fragment" width="490px" data-src="img/repository_directory.jpg" />
+
+					<aside class="notes">
+						Perguntar para o pessoal o conceito de repositório. Oferecer bombom.
+					</aside>
 				</section>
 
 				<section>
@@ -273,6 +359,10 @@
 					<b>O histórico dos arquivos é armazenado dentro do diretório .git</b>
 					<br/>
 					<img class="fragment" width="400px" data-src="img/git_directory.jpg" />
+
+					<aside class="notes">
+						Não vou falar de como o Git armazena seus arquivos. Até porque eu nem sei direito. Mas a ideia da palestra é dar uma introdução e despertar o uso de Git. Não quero dar um passo maior que a perna.
+					</aside>
 				</section>
 
 				<section>
@@ -283,6 +373,14 @@
 						<li class="fragment">Um arquivo "staged" é um arquivo que tem sua versão atual armazenada em uma área do Git.</li><br/>
 						<li class="fragment">Arquivos na área de "Stage" são candidatos para serem armazenados no repositório.</li>
 					</ul>
+
+					<aside class="notes">
+						Ao "stagiar" um arquivo, o Git armazena (de alguma forma) as modificações do arquivo. Se você alterar um arquivo já "stagiado", você precisa adicionar as novas modificações ao "stage", pq o Git já armazenou as alterações antigas no "stage".
+
+						Usar a analogia de um time de futebol para explicar sobre os candidatos para o commit.
+
+						Falar que é muito mais comum adicionar todos os arquivos ao "stage" do que um por um.
+					</aside>
 				</section>
 
 				<section>
@@ -295,11 +393,16 @@
 					<ul>
 						<li class="fragment">Um commit é um objeto que aponta para as modificações realizadas nos arquivos do repositório.</li><br/>
 						<li class="fragment">Todo commit é identificado por um hash, possuí uma descrição e informações adicionais (como data e autor).</li><br/>
-						<li class="fragment">Todo commit possuí uma referência para commit anteior.</li><br/>
+						<li class="fragment">Todo commit possuí uma referência para o commit anteior.</li>
 					</ul>
 
-					<br/>
 					<img class="fragment" width="1000px" data-src="img/commit.jpg"/>
+
+					<aside class="notes">
+						Explicar por que é necessário informar o email e o nome para poder realizar um commit.
+
+						Lembre-se disso: o commit possuí uma referência para o commit anterior.
+					</aside>
 				</section>
 
 				<section>
@@ -325,6 +428,10 @@
 					</ul>
 
 					<img class="fragment" width="650px" data-src="img/branches_head.png" />
+
+					<aside class="notes">
+						Explicar que o HEAD (que é tipo uma variavel) guarda qual o branch atual.
+					</aside>
 				</section>
 
 				<section>
@@ -336,6 +443,11 @@
 					
 					<br/>
 					<img class="fragment" width="500px" data-src="img/branches_example.jpg" />
+
+					<aside class="notes">
+						Pensem que você estão desenvolvendo uma nova funcionalidade. Aí do nada, liga aquele cliente chato, dizendo que o sistema da dando problema, tem navio parado e mimimi.
+						Usando branches, você pode comitar as alterações da modificação que você estava fazendo e pode começar um branch novo para corrigir o bug.
+					</aside>
 				</section>
 
 				<section>
@@ -347,6 +459,10 @@
 					</ul>
 
 					<img class="fragment" width="400px" data-src="img/tags_example.jpg" />
+
+					<aside class="notes">
+						O objetivo da tag é simplesmente esse: criar versões.
+					</aside>
 				</section>
 
 				<section>
@@ -370,6 +486,14 @@
 						<li class="fragment">Rede Social com 9 milhões de usuário</li><br/>
 						<li class="fragment">Muito utilizada para projetos Open Source</li><br/>
 					</ul>
+
+					<aside class="notes">
+						Falar da rede social, issue tracker, releases, etc.
+
+						Muito bacana para ingressar no universo Open Source. Quantidade e qualidade de aprendizado que o Open Source tem a oferecer é absurdo. Contribuir é muito fácil, você pode contribuir com código, procurando bugs e abrindo issues, dando novas ideias para o futuro do projeto, etc.
+
+						Falar que o custo para usar repositórios privados é por repositório.
+					</aside>
 				</section>
 
 				<section>
@@ -396,6 +520,11 @@
 						<li class="fragment">Hospedagem de repositórios Git públicos e privados</li><br/>
 						<li class="fragment">Repositórios privados e gratuitos com no máximo 5 pessoas</li><br/>
 					</ul>
+
+					<aside class="notes">
+						Esse cara é perfeito para usar em projetos com equipes pequenas. Usei ele muito quando estava estudando na Feevale para trabalhar em equipe com os colegas.
+						O número de repositórios é ilimitado, o custo aqui é por usuário, sendo gratuito para até 5 pessoas.
+					</aside>
 				</section>
 
 				<section>
@@ -406,6 +535,11 @@
 						<li class="fragment">Projeto Open Source</li><br/>
 						<li class="fragment">Necessário instalar em um servidor</li><br/>
 					</ul>
+
+					<aside class="notes">
+						Esse cara é ótimo para colocar no servidor da sua empresa. Sempre tem aquele gerente paranóico, achando que qualquer serviço na web vai cair e vamos perder o código do nosso projeto.
+						A Bitnami oferece um instalador bem simples, só clicar em alguns nexts e tá tudo no ar.
+					</aside>
 				</section>
 
 				<section>
@@ -422,12 +556,26 @@
 							<a href="https://try.github.io/levels/1/challenges/1">try.github.io</a>
 						</li>
 					</ul>
+
+					<aside class="notes">
+						Falar que os dois primeiros são em Português.
+
+						Esse guia prático é bem básico, mas explica tudo que tu precisa pra começar com Git.
+
+						O livro Pro Git é excelente, ele começa do básico, introduzindo ao Git e vai até tópicos muito avançados. Parei na metade desse cara, mas eu tava achando muito bom.
+
+						O última é um site mais interativo do GitHub. Ele te ensina o básico de Git, usando o próprio browser. O curso é bacana, mas só a primeira parte é gratuita (se não me engano). Mas vale a pena fazer para aprender o básico de Git.
+					</aside>
 				</section>
 
 				<section>
 					<h2 class="git-color">Perguntas?</h2>
 
 					<img width="400px" data-src="img/gifs/bale_question.gif" />
+
+					<aside class="notes">
+						Lembrem-se, tem bombons.
+					</aside>
 				</section>
 
 				<section>
@@ -437,6 +585,12 @@
 					<h4>Quer dar sua opinião sobre a palestra?</h4>
 					<img height="50px" data-src="img/logos/twitter.png" style="margin: 0px;" />
 					<a href="http://twitter.com/gabriel_hof">@gabriel_hof</a>
+
+					<aside class="notes">
+						Por favor, se vocês gostaram de algo, ou acharam tudo ruim, podem falar. Meu objetivo é melhorar essa palestra de forma a tornar ela muito simples mesmo, apresentável até mesmo pra quem não trabalhar com TI.
+
+						Vou colocar essa palestra no ar, assim que eu descobrir um jeito fácil de fazer isso. Se alguém quiser me dar uma dica ou outra, estou aberto a sugestões.
+					</aside>
 				</section>
 
 				<section>
