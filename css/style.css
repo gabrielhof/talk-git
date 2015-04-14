@@ -1,0 +1,31 @@
+::selection {
+	background: #AC5C51;
+}
+
+::-moz-selection {
+	background: #AC5C51;
+}
+
+.reveal img {
+	border: none !important;
+	box-shadow: none !important;
+	background: none !important;
+}
+
+.reveal .git-color {
+	color: #F34F29;
+}
+
+.reveal ul {
+	list-style-type: none;
+}
+
+.reveal #home h1 {
+	font-size: 2.0em;
+}
+
+.reveal #about img.me {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
